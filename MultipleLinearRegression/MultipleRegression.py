@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # import the data
 dataset = pd.ExcelFile()
 # vector of variables
-X = dataset.iloc[:, :].values
+X = dataset.iloc[:, :-1].values
 # vector of features
 y = dataset.iloc[:, -1].values
 

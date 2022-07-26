@@ -1,4 +1,4 @@
- # Polynomial-Regression-From-Scratch
+ # Polynomial-Regression
 Polynomial regression using the normal equation and gradient descent methods.
 
 ## Dependencies

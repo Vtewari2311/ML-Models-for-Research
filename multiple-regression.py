@@ -52,15 +52,15 @@ print(‘root_mean_squared error of is==’,np.sqrt(mean_squared_error(y_test,y_
 # Visualising the Training set results
 plt.scatter(X_train, y_train, color = 'red')
 plt.plot(X_train, regressor.predict(X_train), color = 'blue')
-plt.title('Salary vs Experience (Training set)')
-plt.xlabel('Years of Experience')
-plt.ylabel('Salary')
+plt.title('Train Set')
+plt.xlabel('')
+plt.ylabel('')
 plt.show()
 
 # Visualising the Test set results
 plt.scatter(X_test, y_test, color = 'red')
 plt.plot(X_train, regressor.predict(X_train), color = 'blue')
-plt.title('')
+plt.title('Test Set')
 plt.xlabel('')
 plt.ylabel('')
 plt.show()
